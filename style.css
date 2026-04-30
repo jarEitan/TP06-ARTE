@@ -83,6 +83,7 @@
         padding-right: 5%;
         width: 90%;
         display: inline-block;
+        margin-bottom: 3%;
     }
     
     .doble {
@@ -156,7 +157,8 @@
     .opiniones div {
         list-style: none;
         float: left;
-        background-color: #c0afff;
+        background-color: #d2cbed;
+        box-shadow: 1px 1px 5px 2px rgb(115, 112, 123);
         width: 27%;
         padding: 2%;
         margin-left: 1%;
@@ -172,9 +174,36 @@
     }
     
     .opiniones img {
-        width: 20%;
         float: left;
         margin: 1%;
+    }
+    
+    .circulo {
+        width: 25%;
+        border-radius: 99999px;
+    }
+    
+    .grande {
+        width: 50%;
+    }
+    
+    .lista {
+        background-color: #d2cbed;
+        padding: 2%;
+        border-radius: 30px;
+        box-shadow: 1px 1px 5px 2px rgb(115, 112, 123);
+        margin-bottom: 2%;
+        display: inline-block;
+    }
+    
+    .lista ul {
+        list-style: none;
+    }
+    
+    .lista img {
+        float: left;
+        width: 7%;
+        margin-right: 2%;
     }
     
     footer {
