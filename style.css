@@ -1,101 +1,241 @@
-*{
-
-    margin: 0%;
-    padding: 0%;
-    font-family: Tahoma, sans-serif;
-}
-
-header{
-    border: 1px, solid, grey;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 80%;
-    display: inline-block;
-}
-header div{
-    float: left;
-}
-
-header nav ul li{
-
-    padding-top: 1.5%;
-    margin-top: 1.5%;
-    margin-right: 1%;
-    list-style: none;
-    float: right;
-}
-header nav ul li a{
-    color: black;
-    text-decoration: none;
-}
-
-.button{
-    background-color: #604bf7;
-    border: 1px, solid, black;
-    padding: 1%;
-    margin-top: 1.5%;
-    margin-left: 1%;
-    border-radius: 15px;
-    list-style: none;
-    float: right;
-    box-shadow: 0 0 15px 1px #604bf7;
-}
-.button a{
-    color: white;
-    text-decoration: none;
-    font-size: 150%;
-}
-
-.comment{
-    margin: 1%;
-    display: inline-block;
-    background-color: #f2effd;
-    width: 60%;
-    padding: 0.5%;
-    padding-right: 0%;
-    padding-left: 2%;
-    border-radius: 30px;
-}
-.comment img{
-    margin-top: 0.7%;
-    float: left;
-    width: 5%;
-}
-.comment p{
-    float: left;
-    width: 90%;
-    color: rgb(0, 0, 0);
-}
-
-main section{
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 90%;
-    display: inline-block;
-}
-
-.doble{
-    display: inline-block;
-}
-
-.dobleTexto{
-    width: 49%;
-    float: left;
-}
-.dobleTexto h1{
-    font-size: 400%;
-}
-
-
-.dobleImagen{
-    width: 49%;
-    float: left;
-background: #604BF7;
-background: radial-gradient(circle, rgba(96, 75, 247, 1) 0%, rgba(96, 75, 247, 0.64) 33%, rgba(255, 255, 255, 1) 66%);
-}
-.dobleImagen img{
-    width: 30%;
-    margin-left: 30%;
-    margin-right: 40%;
-    padding: 5%;
-}
+    * {
+        margin: 0%;
+        padding: 0%;
+        font-family: Tahoma, sans-serif;
+    }
+    
+    header {
+        border: 1px, solid, rgba(128, 128, 128, 0.3);
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+        display: inline-block;
+    }
+    
+    header div {
+        float: left;
+    }
+    
+    header nav ul li {
+        padding-top: 1.5%;
+        margin-top: 1.5%;
+        margin-right: 1%;
+        list-style: none;
+        float: right;
+    }
+    
+    header nav ul li a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .button {
+        background-color: #604bf7;
+        border: 1px, solid, black;
+        padding: 1%;
+        margin-top: 1.5%;
+        margin-left: 1%;
+        border-radius: 15px;
+        list-style: none;
+        float: right;
+        box-shadow: 0 0 15px 1px #604bf7;
+    }
+    
+    .button a {
+        color: white;
+        text-decoration: none;
+        font-size: 150%;
+    }
+    
+    .bigButton {
+        font-size: 150%;
+        background-color: #604bf7;
+        padding: 3%;
+        float: none;
+        width: fit-content;
+    }
+    
+    .comment {
+        margin: 1%;
+        display: inline-block;
+        background-color: #c0afff;
+        width: fit-content;
+        padding: 0.5%;
+        padding-right: 0%;
+        padding-left: 2%;
+        border-radius: 30px;
+    }
+    
+    .comment img {
+        margin-top: 1.5%;
+        float: left;
+        width: 5%;
+    }
+    
+    .comment p {
+        float: left;
+        width: 90%;
+        color: rgb(0, 0, 0);
+    }
+    
+    main section {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+        display: inline-block;
+    }
+    
+    .doble {
+        margin-top: 1%;
+        display: inline-block;
+    }
+    
+    .dobleTexto {
+        width: 39%;
+        float: left;
+    }
+    
+    .dobleTexto h1 {
+        font-size: 400%;
+    }
+    
+    .dobleTexto h3 {
+        font-size: 150%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-weight: normal;
+    }
+    
+    .width30 {
+        width: 40%;
+    }
+    
+    .dobleImagen {
+        width: 59%;
+        float: left;
+        background: #604BF7;
+        background: radial-gradient(circle, rgba(96, 75, 247, 1) 0%, rgba(96, 75, 247, 0.64) 33%, rgba(255, 255, 255, 1) 66%);
+    }
+    
+    .dobleImagen img {
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 40%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .imagen2 {
+        background: transparent;
+    }
+    
+    .imagen2 img {
+        width: 90%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin: 5%;
+        box-shadow: 0 0 30px 10px #604bf7;
+        border-radius: 30px;
+    }
+    
+    .width70 {
+        width: 60%;
+    }
+    
+    .opiniones {
+        margin-top: 1%;
+        display: inline-block;
+    }
+    
+    .opiniones h1 {
+        font-size: 200%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    
+    .opiniones div {
+        list-style: none;
+        float: left;
+        background-color: #c0afff;
+        width: 27%;
+        padding: 2%;
+        margin-left: 1%;
+        border-radius: 30px;
+    }
+    
+    .opiniones ul {
+        list-style: none;
+    }
+    
+    .opiniones div li {
+        margin-top: 2%;
+    }
+    
+    .opiniones img {
+        width: 20%;
+        float: left;
+        margin: 1%;
+    }
+    
+    footer {
+        display: inline-block;
+        border: 1px, solid, rgba(128, 128, 128, 0.3);
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+        margin-top: 1%;
+        padding-top: 1%;
+        padding-bottom: 3%;
+        background-color: rgb(0, 0, 56);
+    }
+    
+    .columna {
+        float: left;
+        width: fit-content;
+        margin-right: 5%;
+        color: rgb(170, 170, 170);
+    }
+    
+    .columnaBig {
+        width: 20%;
+    }
+    
+    .columna img {
+        background-color: rgb(255, 255, 255);
+        padding: 1%;
+        border-radius: 10px;
+    }
+    
+    .columna p {
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+    
+    .columnaREDES img {
+        width: 10%;
+        border-radius: 100px;
+        margin-right: 5%;
+        background-color: white;
+    }
+    
+    .contenedor {
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 1%;
+        display: inline-block;
+    }
+    
+    .contenedor input {
+        border: none;
+        padding: 3%;
+        color: #ccc;
+        font-size: 110%;
+        width: 45%;
+    }
+    
+    .contenedorEnviar {
+        border-radius: 6px;
+        background-color: #604bf7;
+        color: white;
+        float: right;
+    }
